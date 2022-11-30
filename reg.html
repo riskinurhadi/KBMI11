@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>card</title>
-    <link rel="stylesheet" type="text/css" href="./login.css">
+    <title>Regist</title>
+    <link rel="stylesheet" type="text/css" href="./Reg.css">
     <meta name="viewport" content="widht=device-widht,initial-scale=1.0"
     />
 </head>
@@ -13,29 +13,46 @@
     <div id="card">
         <div id="card-content">
             <div id="card-title">
-                <h2>Login</h2>
+                <h2>REGIST</h2>
                 <div class="underline-title">
 
                 </div>
             </div>
             <form method="post" class="form">
+                <label for="Name" style="padding-top: 13px;">&nbsp;Nama
+                </label>
+                <input id="Name" class="form-content" type="Name"
+                name="Name" autocomplete="on" required/>
+                <div class="form-border"></div>
+
                 <label for="user-email" style="padding-top: 13px;">&nbsp;Email
                 </label>
                 <input id="user-email" class="form-content" type="email"
                 name="Email" autocomplete="on" required/>
                 <div class="form-border"></div>
 
-                <label for="user-password" style="padding-top: 22px;">&nbsp; Password
+
+                <label for="Nomor" style="padding-top: 13px;">&nbsp;No WhatsApp
+                </label>
+                <input id="Nomor" class="form-content" type="Nomor"
+                name="Nomor" autocomplete="on" required/>
+                <div class="form-border"></div>
+
+
+                <label for="user-password" style="padding-top: 22px;">&nbsp;Set Password
                 </label>
                 <input id="user-password" class="form-content" type="password"
                 name="password" autocomplete="on" required/>
                 <div class="form-border"></div>
                 
-                <a href="#">
-                    <legend id="forgot-pass">Lupa Password ?</legend>
+               
+                <input id="submit-btn" type="submit" name="submit" value="REGIST">
+
+                <p align="center">Sudah punya akun ?</p>
+                <a href="./login.html">
+                 <legend id="Login">Masuk</legend>
                 </a>
-                <input id="submit-btn" type="submit" name="submit" value="LOGIN">
-                <a href="./reg.html" id="signup">Belum Punya akun ?</a>
+
             </form>
         </div>
     </div>

@@ -1,11 +1,14 @@
-.film{
-    
+body{
+    background-color: rgb(255, 250, 191);
 }
+
+
 .card-img-top{
     height: 250px;
 }
 .card{
     transition: 0,3s ease-in-out;
+    background-color: rgb(205, 170, 245);
 }
 .card:hover{
     transition: scale(1.1);
